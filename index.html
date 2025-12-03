@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CourseHub - Learn Smarter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <h2 class="brand">CourseHub</h2>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#faq">FAQ</a>
+        <a href="login.html" class="btn-secondary" style="padding:6px 10px;">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <h1>Learn Skills for a Brighter Tomorrow</h1>
+        <p>Explore our high-quality online courses designed by industry experts to help you learn smarter and succeed faster.</p>
+        <button id="updateBannerBtn" class="btn-primary">Switch to Python Banner</button>
+      </div>
+
+      <div class="hero-right">
+        <img id="bannerImage" src="coursebanner.jpg">
+        <span id="bannerCaption">Default Course Banner</span>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="about" class="courses">
+    <div class="container">
+      <h2>About CourseHub</h2>
+      <p style="max-width:750px; margin-top:12px;">
+        CourseHub is an online learning platform offering high-quality training in technology,
+        programming, and digital skills. Our mission is to make learning easy, affordable, and
+        accessible for everyone. Whether you're a student, beginner, or working professional,
+        we provide structured lessons and hands-on projects to help you master real-world skills.
+      </p>
+
+      <div class="course-grid" style="margin-top:25px; grid-template-columns:repeat(3,1fr);">
+        <div class="course-box">
+          <h3>Expert-Led Training</h3>
+          <p>Courses created by industry professionals with real experience.</p>
+        </div>
+
+        <div class="course-box">
+          <h3>Practical Projects</h3>
+          <p>Every course includes real applications, hands-on tasks, and examples.</p>
+        </div>
+
+        <div class="course-box">
+          <h3>Lifetime Access</h3>
+          <p>Learn at your own pace with unlimited access to all lessons.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="courses" class="courses">
+    <div class="container">
+
+      <div class="section-head">
+        <h2>Popular Courses</h2>
+        <button id="updateCoursesBtn" class="btn-secondary">Update Text</button>
+      </div>
+
+      <div class="course-grid">
+
+        <div class="course-box">
+          <h3>HTML & CSS Basics</h3>
+          <p class="course-desc">Build beautiful websites with beginner-friendly styling.</p>
+        </div>
+
+        <div class="course-box">
+          <h3>JavaScript Essentials</h3>
+          <p class="course-desc">Create interactive websites and strong JS fundamentals.</p>
+        </div>
+
+        <div class="course-box">
+          <h3>Python for Beginners</h3>
+          <p class="course-desc">Learn programming logic with Python easily.</p>
+        </div>
+
+        <div class="course-box">
+          <h3>ReactJS Fundamentals</h3>
+          <p>Learn modern front-end development with reusable components and hooks.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="courses">
+    <div class="container">
+      <h2>What Our Students Say</h2>
+
+      <div class="course-grid" style="margin-top:25px;">
+
+        <div class="course-box">
+          <h3>Rahul S</h3>
+          <p>"CourseHub helped me understand JavaScript better than any YouTube tutorial. Highly recommended!"</p>
+        </div>
+
+        <div class="course-box">
+          <h3>Priya K</h3>
+          <p>"The Python course was simple, clear, and project-based. I got my first internship using these skills."</p>
+        </div>
+
+        <div class="course-box">
+          <h3>Arun M</h3>
+          <p>"The content is updated and easy to follow. The UI is very clean and user-friendly."</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="faq" class="courses">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="course-grid" style="margin-top:25px;">
+
+        <div class="course-box">
+          <h3>Do I get certificates?</h3>
+          <p>Yes. Once you complete the course, you will receive a verified certificate.</p>
+        </div>
+
+        <div class="course-box">
+          <h3>Are the courses beginner-friendly?</h3>
+          <p>Absolutely! All courses start from the basics with step-by-step explanations.</p>
+        </div>
+
+        <div class="course-box">
+          <h3>Can I access the course anytime?</h3>
+          <p>Yes, all lessons are available 24/7 with lifetime access.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Announcements</h2>
+      <p><strong>Latest:</strong> <span id="announcementText">New courses launching soon.</span></p>
+      <button id="updateAnnouncementBtn" class="btn-secondary" style="margin-top:10px;">Update Announcement</button>
+    </div>
+  </section>
+
+  
+  <footer class="footer">
+    <p>© 2025 CourseHub. All rights reserved.</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
